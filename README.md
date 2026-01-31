@@ -18,12 +18,6 @@ This is the implementation of HBHM (Hierarchical Bayesian Hyperbolic Model), a g
 
 *Figure 1 shows class-level hierarchical nodes embedded in the Poincaré disk. t-SNE projections of ID (CIFAR-10) and OOD (SVHN) data demonstrate the model's separation of data types. The size of the shaded areas represents learned uncertainty. Subclass nodes' distance from the origin are determined by the learned embedding vectors, reflecting the model's comprehension of hierarchical depth.*
 
-### Figure 2: Architecture and Data Flow of Bayesian Head Training
-
-![Architecture Diagram](https://res.cloudinary.com/dyybhhdfg/image/upload/v1754404429/Two_stage_symaut.png)
-
-*Figure 2 shows the overall architecture of HBHM, including the pre-trained backbone network, hierarchy-aware Bayesian head, and the data flow of the dual-pathway regularization mechanism.*
-
 ## Project Structure
 
 ```
